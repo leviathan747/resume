@@ -1,0 +1,65 @@
+= Levi Starrett
+
+==== 1219 Heath St Lafayette, IN 47904
+
+==== (765) 532-4829
+
+==== levi@roxsoftware.com
+
+== Education
+==== Purdue University
+**Bachelor of Science in Computer Science: December 2016 [3.75 GPA]** +
+_focus in Systems and Software Engineering_
+
+== Skills
+
+=== Technologies
+- xtUML – Knowledge and experience in the Shlaer-Mellor method of systems analysis. Background in building and debugging applications in xtUML
+- BridgePoint – Deep understanding of the BridgePoint xtUML modeling editor, verifier and model compilers
+- C/C++ – Strong background in writing system level and embedded applications in C and C++. Implemented a specialized FTP server for Qualcomm modems
+- Version Control – Experience with git, subversion, and perforce in real software teams, and familiar with online source hosting such as Github and Bitbucket
+- Python – Experience building web applications in Python using the Flask microframework
+- Java – Firm understanding of object oriented programming in Java
+- SQL – Practical experience using relational databases in applications
+- Team tools – Used Hangouts, JIRA, git, subversion, Skype, Redmine, Join.me, Google Drive, and Outlook in real world employment environments
+
+=== Leadership
+- Undergrad Lecturer for Purdue CS190 Tools course
+  * Primary lecturer for CS190 Tools at Purdue University (Fall 2015). 400+ students
+  * Cover topics such as linux, bash, vim, git, eclipse, debugging, etc
+  * Developed much of the course material including labs, lecture slides, and demos
+- Purdue/Qualcomm recruiting app team lead
+  * Led a team of five other Purdue students in creating a mobile web application for the Qualcomm campus team
+  * Built Node.js/Express framework using git for version control
+  * Scheduled meetings, assigned tasks, managed due dates and oversaw app progress and requirements
+- Undergraduate Student Board of Computer Science (Purdue University)
+  * Member since Spring 2015
+  * Organize events, programs for student success, manage tutoring services, work with corporate partners, academic advisors, and recruiters
+
+== Experience
+
+=== Employment
+
+==== One Fact, Inc (onefact.net) Lafayette, IN
+Chief Software Architect: January 2016 - present
+- Part of the One Fact engineering team working on the BridgePoint xtUML tool
+- Testing and developing features in model compilers and editor
+- Building specialized model compilers for MASL conversion and export
+
+==== Qualcomm Technologies, Inc (qualcomm.com) Boulder, CO
+Interim Engineering Intern: May 2015 - August 2015
+- Worked for modem data services on the protocols team
+- Implemented a specialized FTP server for testing data throughputs on various interfaces
+- Worked extensively in testing on target builds running Android
+
+=== Tavel/Academic
+- Two time presenter at the xtUML Days modeling conference (2017, 2018)
+- Presenter at the 2018 MODELS conference in Copenhagen
+- Delivered software a software training course twice in Cheltenham, UK (2016, 2017)
+
+=== Projects
+- ciera model compiler, AWS
+- Arduino/RPi GPS Watch example
+- BridgePoint
+
+==== References available upon request
