@@ -1,4 +1,5 @@
 # Levi Starrett
+## Software Engineer
 > [ciera.io](http://ciera.io)
 > [levi@roxsoftware.com](mailto:levi@roxsoftware.com)
 > +1 (765) 532-4829
