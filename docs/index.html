@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Levi Starrett | Software Engineer</title>
+<style type="text/css">
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  font-size: 100% !important;
+  color: black;
+}
+body.pdf h1,
+body.pdf h2,
+body.pdf h3,
+body.pdf h4,
+body.pdf ul dl dt {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf .container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf h3 {
+  font-style: normal;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  color: #444;
+}
+.no-code {
+  font-family: sans-serif !important;
+}
+.right-align {
+  font-family: sans-serif !important;
+  float: right;
+}
+.right-text-align {
+  font-family: sans-serif !important;
+  float: right;
+  text-align: right;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a[href$='.pdf'] {
+  background: #666;
+  color: white;
+  margin-bottom: 6px;
+  padding: 6px 6px;
+  text-decoration: none;
+  text-align: center;
+}
+a {
+  color: #990003;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  text-align: right;
+}
+blockquote a {
+  display: block;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: 0;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  border-bottom: 5px solid #000;
+  margin: 0;
+  padding: .25em 0 .25em .3em;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: normal;
+  color: #750003;
+}
+h3+p,
+h3~ul {
+  margin: .2em 0 1.2em;
+  padding: 0;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5;
+}
+h3~ul {
+  padding-left: 1.5em;
+}
+h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+td {
+  vertical-align: top;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul li ul li,
+ol li ul li {
+  font-style: italic;
+  margin: 0 0 0 1.5em;
+  width: 80%;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  margin-left: 1em;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 .5em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+ol li:nth-child(1) {
+  border-top: 0;
+}
+dl {
+  display: inline-block;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+}
+dl dd {
+  padding: 0;
+  font-size: 0.8em;
+}
+dl strong {
+  display: block;
+  font-size: 1.2em;
+}
+dl em {
+  display: block;
+  font-size: 1.2em;
+  margin: .15em 0 .5em;
+}
+#experience ~ dl dt {
+  float: left;
+  margin-top: 1em;
+}
+#experience ~ dl dd {
+  float: right;
+  text-align: right;
+  width: 45%;
+}
+#experience ~ p {
+  width: 85%;
+}
+#experience ~ ul {
+  width: 85%;
+}
+#experience ~ ol li {
+  border: 0;
+  font-size: 1em;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 200%;
+  }
+}
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+	<header></header>
+    <div class="resume">
+        <h1>Levi Starrett</h1>
+
+<h2>Software Engineer</h2>
+
+<blockquote>
+  <p><a href="https://leviathan747.github.io">leviathan747.github.io</a>
+  <a href="mailto:levi@roxsoftware.com">levi@roxsoftware.com</a>
+  +1 (765) 532-4829
+  <a href="levi-starrett-resume.pdf">Download PDF</a></p>
+</blockquote>
+
+<hr />
+
+<h3>Education</h3>
+
+<h4>Purdue University</h4>
+
+<pre><code class="right-align">December 2016
+</code></pre>
+
+<p><strong>Bachelor of Science in Computer Science</strong><br />
+<em>focus in Systems and Software Engineering</em></p>
+
+<hr />
+
+<h3>Skills</h3>
+
+<h4>Technical</h4>
+
+<ul>
+<li><strong>C:</strong> Strong background in writing system level and embedded applications in
+C. Implemented a specialized FTP server for Qualcomm modems.  Exerience
+working with C++. Experience writing embedded applications for Raspberry Pi,
+Arduino, LEGO Ev3 and others.</li>
+<li><strong>Compilers:</strong> Comprehensive experience in compilers and programming language
+design. Built a model compiler to generate Java from xtUML models.</li>
+<li><strong>Operating systems:</strong> Experience with several different operating systems
+including Windows and Unix systems. Some experience with other hardware
+specific real time operating systems.</li>
+<li><strong>Version Control:</strong> Experience with git, subversion, and perforce in real
+software teams, and familiar with online source hosting such as Github and
+Bitbucket.</li>
+<li><strong>Java:</strong> Firm understanding of object oriented programming in Java.</li>
+<li><strong>Python:</strong> Experience using Python for scripting applications. Some
+experience building web applications in Python using the Flask
+microframework.</li>
+<li><strong>Amazon Web Services:</strong> Knowledge of AWS services such as EC2, S3, DynamoDB,
+Lambda, and others and experience using them in production applications.</li>
+<li><strong>SQL:</strong> Practical experience using relational databases in applications.</li>
+<li><strong>Team tools:</strong> Used Hangouts, JIRA, git, subversion, Skype, Redmine,
+Join.me, Google Drive, and Outlook in real world employment environments.</li>
+<li><strong>xtUML:</strong> Knowledge and experience in the Shlaer-Mellor method of systems
+analysis. Background in building and debugging applications in xtUML.</li>
+<li><strong>BridgePoint:</strong> Deep understanding of the BridgePoint xtUML modeling editor,
+verifier and model compilers.</li>
+</ul>
+
+<hr />
+
+<h4>Leadership</h4>
+
+<ul>
+<li>Engineering project lead at One Fact (Project Primus)
+
+<ul>
+<li>Drove requirements specification, prototyping and proposals</li>
+<li>Performed in depth analysis and provided sizing estimates for work contract</li>
+<li>Designed and implemented features and test cases to satify the requirements
+specification</li>
+<li>Worked on a delivery schedule and communicated with customers</li>
+</ul></li>
+<li>Undergrad Lecturer for Purdue CS190 Tools course
+
+<ul>
+<li>Primary lecturer for CS190 Tools at Purdue University (Fall 2015). 400+ students</li>
+<li>Cover topics such as linux, bash, vim, git, eclipse, debugging, etc</li>
+<li>Developed much of the course material including labs, lecture slides, and demos</li>
+</ul></li>
+<li>Undergraduate Student Board of Computer Science (Purdue University)
+
+<ul>
+<li>Member Spring 2015 - December 2016</li>
+<li>Organize events, programs for student success, manage tutoring services,
+work with corporate partners, academic advisors, and recruiters</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3>Experience</h3>
+
+<h4>Employment</h4>
+
+<pre><code class="right-text-align">Lafayette, IN
+January 2016 - present
+</code></pre>
+
+<p><strong>One Fact, Inc (<a href="http://onefact.net">onefact.net</a>)</strong><br />
+<em>Chief Software Architect</em></p>
+
+<ul>
+<li>Part of the One Fact engineering team working on the BridgePoint xtUML tool</li>
+<li>Testing and developing features in model compilers and editor</li>
+<li>Building specialized model compilers for MASL conversion and export</li>
+</ul>
+
+<pre><code class="right-text-align">Boulder, CO
+May 2015 - August 2015
+</code></pre>
+
+<p><strong>Qualcomm Technologies, Inc (<a href="http://qualcomm.com">qualcomm.com</a>)</strong><br />
+<em>Interim Engineering Intern</em></p>
+
+<ul>
+<li>Worked for modem data services on the protocols team</li>
+<li>Implemented a specialized FTP server for testing data throughputs on various
+interfaces</li>
+<li>Worked extensively in testing on target builds running Android</li>
+</ul>
+
+<hr />
+
+<h4>Tavel/Academic</h4>
+
+<ul>
+<li>Two time presenter at the xtUML Days modeling conference (2017
+Linköping, Sweden; 2018 Copenhagen, Denmark)</li>
+<li>Presented a technology demo at the 2018 MODELS conference in Copenhagen,
+Denmark</li>
+<li>Delivered a software training course twice in Cheltenham, UK (2016, 2017)</li>
+</ul>
+
+<hr />
+
+<h4>Projects</h4>
+
+<ul>
+<li>ciera model compiler
+
+<ul>
+<li>Working on a model compiler to generate Java for xtUML application models</li>
+<li>Used to generate an application deployable to AWS</li>
+<li>Compiler is built with itself</li>
+</ul></li>
+<li>Arduino/RPi GPS Watch example
+
+<ul>
+<li>Ported an xtUML application to run on both Raspberry Pi and Arduino with
+identical hardware</li>
+</ul></li>
+<li>BridgePoint
+
+<ul>
+<li>Core contributor to the BridgePoint project</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3>References</h3>
+
+<p>Available on request.</p>
+
+    </div>
+    <footer></footer>
+</div>
+
+</body>
+</html>
