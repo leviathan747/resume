@@ -1,9 +1,9 @@
 # Levi Starrett
 ## Software Engineer
-> [ciera.io](http://ciera.io)
+> [leviathan747.github.io](http://leviathan747.github.io)
 > [levi@roxsoftware.com](mailto:levi@roxsoftware.com)
 > +1 (765) 532-4829
-
+> [Download PDF](resume.pdf)
 
 ------
 
@@ -11,40 +11,45 @@
 
 #### Purdue University
 
-**Bachelor of Science in Computer Science: December 2016 [3.75 GPA]**  
+```right-align
+December 2016
+```
+**Bachelor of Science in Computer Science**  
 _focus in Systems and Software Engineering_
 
 ------
 
 ### Skills
 
-
 #### Technical
 
-- **C** – Strong background in writing system level and embedded applications in C.
-  Implemented a specialized FTP server for Qualcomm modems.  Exerience
+- **C:** Strong background in writing system level and embedded applications in
+  C. Implemented a specialized FTP server for Qualcomm modems.  Exerience
   working with C++. Experience writing embedded applications for Raspberry Pi,
   Arduino, LEGO Ev3 and others.
-- **Compilers** - Comprehensive experience in compilers and programming language
+- **Compilers:** Comprehensive experience in compilers and programming language
   design. Built a model compiler to generate Java from xtUML models.
-- **Operating systems** - Experience with several different operating systems
+- **Operating systems:** Experience with several different operating systems
   including Windows and Unix systems. Some experience with other hardware
   specific real time operating systems.
-- **Version Control** – Experience with git, subversion, and perforce in real
+- **Version Control:** Experience with git, subversion, and perforce in real
   software teams, and familiar with online source hosting such as Github and
   Bitbucket.
-- **Java** – Firm understanding of object oriented programming in Java.
-- **Python** – Experience using Python for scripting applications. Some
-  experience building web applications in Python using the Flask microframework.
-- **Amazon Web Services** - Knowledge of AWS services such as EC2, S3, DynamoDB,
+- **Java:** Firm understanding of object oriented programming in Java.
+- **Python:** Experience using Python for scripting applications. Some
+  experience building web applications in Python using the Flask
+  microframework.
+- **Amazon Web Services:** Knowledge of AWS services such as EC2, S3, DynamoDB,
   Lambda, and others and experience using them in production applications.
-- **SQL** – Practical experience using relational databases in applications.
-- **Team tools** – Used Hangouts, JIRA, git, subversion, Skype, Redmine,
+- **SQL:** Practical experience using relational databases in applications.
+- **Team tools:** Used Hangouts, JIRA, git, subversion, Skype, Redmine,
   Join.me, Google Drive, and Outlook in real world employment environments.
-- **xtUML** – Knowledge and experience in the Shlaer-Mellor method of systems
-  analysis. Background in building and debugging applications in xtUML
-- **BridgePoint** – Deep understanding of the BridgePoint xtUML modeling editor,
-  verifier and model compilers
+- **xtUML:** Knowledge and experience in the Shlaer-Mellor method of systems
+  analysis. Background in building and debugging applications in xtUML.
+- **BridgePoint:** Deep understanding of the BridgePoint xtUML modeling editor,
+  verifier and model compilers.
+
+------
 
 #### Leadership
 
@@ -69,20 +74,30 @@ _focus in Systems and Software Engineering_
 
 #### Employment
 
-**One Fact, Inc (onefact.net) Lafayette, IN**
-_Chief Software Architect: January 2016 - present_
+```right-text-align
+Lafayette, IN
+January 2016 - present
+```
+**One Fact, Inc ([onefact.net](http://onefact.net))**  
+_Chief Software Architect_
 
 - Part of the One Fact engineering team working on the BridgePoint xtUML tool
 - Testing and developing features in model compilers and editor
 - Building specialized model compilers for MASL conversion and export
 
-**Qualcomm Technologies, Inc (qualcomm.com) Boulder, CO**
-_Interim Engineering Intern: May 2015 - August 2015_
+```right-text-align
+Boulder, CO
+May 2015 - August 2015
+```
+**Qualcomm Technologies, Inc ([qualcomm.com](http://qualcomm.com))**  
+_Interim Engineering Intern_
 
 - Worked for modem data services on the protocols team
 - Implemented a specialized FTP server for testing data throughputs on various
   interfaces
 - Worked extensively in testing on target builds running Android
+
+------
 
 #### Tavel/Academic
 
@@ -90,10 +105,12 @@ _Interim Engineering Intern: May 2015 - August 2015_
   Linköping, Sweden; 2018 Copenhagen, Denmark)
 - Presented a technology demo at the 2018 MODELS conference in Copenhagen,
   Denmark
-- Delivered software a software training course twice in Cheltenham, UK (2016,
-  2017)
+- Delivered a software training course twice in Cheltenham, UK (2016, 2017)
+
+------
 
 #### Projects
+
 - ciera model compiler
   * Working on a model compiler to generate Java for xtUML application models
   * Used to generate an application deployable to AWS
@@ -102,10 +119,11 @@ _Interim Engineering Intern: May 2015 - August 2015_
   * Ported an xtUML application to run on both Raspberry Pi and Arduino with
     identical hardware
 - BridgePoint
-  * Core contributor to the BridgePoint project
+  - Core contributor to the BridgePoint project
 
 ------
 
-#### References
+### References
 
-Available on request
+Available on request.
+

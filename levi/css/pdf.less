@@ -1,12 +1,15 @@
 body.pdf {
 	color: black;
 
+  h1, h2, h3, h4, ul dl dt {
+	  color: black;
+  }
+
 	a {
 		text-decoration: none;
 		color: black;
 
-		&[href$='.pdf'],
-		&[href*='github'] {
+		&[href$='.pdf'] {
 			display: none;
 		}
 	}

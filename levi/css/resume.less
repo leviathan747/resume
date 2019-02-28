@@ -18,6 +18,20 @@ h1, h2, h3, h4, ul dl dt {
 	/*font-family: Futura, "Century Gothic", AppleGothic, sans-serif;*/
 }
 
+.no-code {
+  font-family: sans-serif !important;
+}
+
+.right-align {
+  .no-code;
+  float:right;
+}
+
+.right-text-align {
+  .right-align;
+  text-align: right;
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0;
@@ -35,13 +49,12 @@ h1, h2, h3, h4, ul dl dt {
 a[href$='.pdf'] {
 	background: #666;
 	color: white;
-	padding: 6px 12px;
 	margin-bottom: 6px;
+	padding: 6px 6px;
 	text-decoration: none;
-	position: absolute;
-	top: 15px;
-	right: 25px;
+  text-align: center;
 }
+/*
 a[href*='github'] {
 	background: #000;
 	color: white;
@@ -57,6 +70,11 @@ a[href*='github'] {
 		color: #000;
 	}
 }
+*/
+
+a {
+	color: #990003;
+}
 
 /*p {
 	font-size: 1em;
@@ -66,10 +84,10 @@ blockquote {
 	margin: 0;
 	padding: 0;
 	line-height: 1.4em;
+  text-align: right;
 }
 
 blockquote a {
-	color: #990003;
 	display: block;
 }
 
@@ -116,6 +134,7 @@ h3 {
 	font-size: 2em;
 	font-style: italic;
 	font-weight: normal;
+	color: #750003;
 }
 
 h3+p,
@@ -133,6 +152,10 @@ h3~ul {
 h4 {
 	font-size: 1.5em;
 	margin: 0;
+}
+
+td {
+  vertical-align:top;
 }
 
 ul li {
