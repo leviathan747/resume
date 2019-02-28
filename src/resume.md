@@ -1,9 +1,9 @@
 # Levi Starrett
 ## Software Engineer
-> [leviathan747.github.io](http://leviathan747.github.io)
+> [leviathan747.github.io](https://leviathan747.github.io)
 > [levi@roxsoftware.com](mailto:levi@roxsoftware.com)
 > +1 (765) 532-4829
-> [Download PDF](resume.pdf)
+> [Download PDF](levi-starrett-resume.pdf)
 
 ------
 

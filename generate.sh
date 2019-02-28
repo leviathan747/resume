@@ -1,3 +1,3 @@
 #!/bin/bash
-docker run -v ${PWD}:/resume there4/markdown-resume md2resume html -t /resume/levi resume.md .
-docker run -v ${PWD}:/resume there4/markdown-resume md2resume pdf -t /resume/levi resume.md .
+docker run -v ${PWD}:/resume there4/markdown-resume md2resume html -t /resume/themes/red-and-white -o index src/resume.md docs/
+docker run -v ${PWD}:/resume there4/markdown-resume md2resume pdf  -t /resume/themes/red-and-white -o levi-starrett-resume src/resume.md docs/
