@@ -24,9 +24,10 @@ _focus in Systems and Software Engineering_
 #### Technical
 
 - **C:** Strong background in writing system level and embedded applications in
-  C. Implemented a specialized FTP server for Qualcomm modems.  Exerience
+  C. Implemented a specialized FTP server for Qualcomm modems. Exerience
   working with C++. Experience writing embedded applications for Raspberry Pi,
-  Arduino, LEGO Ev3 and others.
+  Arduino, LEGO EV3 and others.
+- **Build tools:** Experience with Maven, Make, and Ant. Some experience with CMake.
 - **Compilers:** Comprehensive experience in compilers and programming language
   design. Built a model compiler to generate Java from xtUML models.
 - **Operating systems:** Experience with several different operating systems
