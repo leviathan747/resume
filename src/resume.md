@@ -82,7 +82,7 @@ January 2016 - present
 **One Fact, Inc ([onefact.net](http://onefact.net))**  
 _Chief Software Architect_
 
-- Part of the One Fact engineering team working on the BridgePoint xtUML tool
+- Lead the One Fact engineering team working on the BridgePoint xtUML tool
 - Testing and developing features in model compilers and editor
 - Building specialized model compilers for MASL conversion and export
 
