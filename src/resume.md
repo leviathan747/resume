@@ -24,22 +24,25 @@ _focus in Systems and Software Engineering_
 #### Technical
 
 - **C:** Strong background in writing system level and embedded applications in
-  C. Implemented a specialized FTP server for Qualcomm modems. Exerience
-  working with C++. Experience writing embedded applications for Raspberry Pi,
-  Arduino, LEGO EV3 and others.
+  C. Implemented control logic for autonomous agricultural machines.
+  Implemented a specialized FTP server for Qualcomm modems. Exerience working
+  with C++. Experience writing embedded applications for Raspberry Pi, Arduino,
+  LEGO EV3 and others.
 - **Build tools:** Experience with Maven, Make, and Ant. Some experience with CMake.
 - **Compilers:** Comprehensive experience in compilers and programming language
   design. Built a model compiler to generate Java from xtUML models.
 - **Operating systems:** Experience with several different operating systems
   including Windows and Unix systems. Some experience with other hardware
-  specific real time operating systems.
+  specific real time operating systems and embedded targets.
+- **Robotics:** Experience working on robotic applications with a mix of
+  hardware, firmware, and software. Experience with ROS and developing for
+  embedded and high level systems.
 - **Version Control:** Experience with git, subversion, and perforce in real
   software teams, and familiar with online source hosting such as Github and
   Bitbucket.
 - **Java:** Firm understanding of object oriented programming in Java.
-- **Python:** Experience using Python for scripting applications. Some
-  experience building web applications in Python using the Flask
-  microframework.
+- **Python:** Experience using Python for scripting applications. Experience
+  building web applications in Python using the Flask microframework.
 - **Amazon Web Services:** Knowledge of AWS services such as EC2, S3, DynamoDB,
   Lambda, and others and experience using them in production applications.
 - **SQL:** Practical experience using relational databases in applications.
@@ -54,6 +57,13 @@ _focus in Systems and Software Engineering_
 
 #### Leadership
 
+- Engineering manager (Rogo)
+  * Led a team of 8 engineers to define priorities and desired results and to
+    foster accountability
+  * Mix of mechanical engineering, electrical engineering, software enginnering
+    team members, including working with external contractors
+  * Like to get hands on with the product and team members and "get dirty out
+    in the field" to assure quality.
 - Engineering project lead at One Fact (Project Primus)
   * Drove requirements specification, prototyping and proposals
   * Performed in depth analysis and provided sizing estimates for work contract
@@ -76,13 +86,26 @@ _focus in Systems and Software Engineering_
 #### Employment
 
 ```right-text-align
+Wolcott, IN
+April 2019 - present
+```
+**Rogo Ag, LLC ([rogoag.com](https://rogoag.com))**  
+_Software Engineer, Engineering Manager_
+
+- Independently architected and built software systems for autonomous soil sampling
+- Built and tested RTK/INS based navigation systems for skid steer and wheeled robots
+- Developed web applications and backend services to meet business requirements
+- Designed requirements and project plans to drive progress by understanding
+  business needs and applying engineering solutions
+
+```right-text-align
 Lafayette, IN
-January 2016 - present
+January 2016 - April 2019
 ```
 **One Fact, Inc ([onefact.net](http://onefact.net))**  
 _Chief Software Architect_
 
-- Lead the One Fact engineering team working on the BridgePoint xtUML tool
+- Led the One Fact engineering team working on the BridgePoint xtUML tool
 - Testing and developing features in model compilers and editor
 - Building specialized model compilers for MASL conversion and export
 
@@ -102,8 +125,8 @@ _Interim Engineering Intern_
 
 #### Tavel/Academic
 
-- Two time presenter at the xtUML Days modeling conference (2017
-  Linköping, Sweden; 2018 Copenhagen, Denmark)
+- Three time presenter at the xtUML Days modeling conference (2017
+  Linköping, Sweden; 2018 Copenhagen, Denmark, 2019 Cheltenham, UK)
 - Presented a technology demo at the 2018 MODELS conference in Copenhagen,
   Denmark
 - Delivered a software training course twice in Cheltenham, UK (2016, 2017)
